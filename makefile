@@ -1,7 +1,7 @@
 # Makefile
 CC = g++
 CFLAGS = -std=c++17
-TARGET = raw_ptr
+TARGET = unique_ptr
 
 default:
 	$(CC) $(CFLAGS) $(TARGET).cpp
